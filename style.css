@@ -19,6 +19,9 @@ form{
 }
 
 #searchBox{
+    flex: 1;
+    border: none;
+    outline: none;
     border-radius: 55px;
     padding: 30px;
     text-align: center;
