@@ -1,11 +1,11 @@
-.navlink{
+.navlinka{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.nav-item{
+.nav-itema{
     margin: 15px;
 }
 
