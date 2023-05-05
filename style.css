@@ -15,7 +15,10 @@
 form{
     width: 500px;
     height: 50px;
+    display: flex;
+}
+
+form input{
     border-radius: 55px;
     padding: 30px;
-    display: flex;
 }
