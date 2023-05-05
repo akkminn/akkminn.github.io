@@ -21,4 +21,5 @@ form{
 form input{
     border-radius: 55px;
     padding: 30px;
+    text-align: center;
 }
