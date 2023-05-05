@@ -15,5 +15,7 @@
 form{
     width: 500px;
     height: 50px;
+    border-radius: 55px;
+    padding: 30px;
     display: flex;
 }
