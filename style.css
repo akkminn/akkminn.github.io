@@ -11,9 +11,3 @@ form{
     height: 50px;
     display: flex;
 }
-
-form input{
-    flex: 1;
-    border: none;
-    outline: none;
-}
