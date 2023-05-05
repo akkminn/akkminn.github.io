@@ -9,44 +9,41 @@
     <body>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a href="https://akkminn.github.io/index.html">Google Search</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="https://akkminn.github.io/image.html">Image Search</a>
+                <a class="nav-link" aria-current="page" href="https://akkminn.github.io/index.html">Google Search</a>
             </li>
         </ul>
         <form action="https://www.google.com/search">
-            <div class="form-group row">
+            <div class="form-row">
                 <label for="inputq" class="col-sm-2 col-form-label">All these words:</label>
-                <div class="col">
+                <div class="col-7">
                     <input class="form-control" id="inputq" type="text" name="as_q">
                 </div>
             </div>
             <br>
 
-            <div class="form-group row">
+            <div class="form-row">
                 <label for="inputepq" class="col-sm-2 col-form-label">This exact word or phrase:</label>
-                <div class="col">
+                <div class="col-7">
                     <input class="form-control" id="inputepq" type="text" name="as_epq">
                 </div>
             </div>
             <br>
 
-            <div class="form-group row">
+            <div class="form-row">
                 <label for="inputoq" class="col-sm-2 col-form-label">Any of these words:</label>
-                <div class="col">
+                <div class="col-7">
                     <input class="form-control" id="inputoq" type="text" name="as_oq">
                 </div>
             </div>
             <br>
 
-            <div class="form-group row">
+            <div class="form-row">
                 <label for="inputeq" class="col-sm-2 col-form-label">None of these words:</label>
-                <div class="col">
+                <div class="col-7">
                     <input class="form-control" id="inputeq" type="text" name="as_eq">
                 </div>
             </div>
-            
+
             <input type="hidden" name="qdr" value="all"> <br>
             <input class="btn btn-primary" type="submit" value="Advanced Search">
         </form>
